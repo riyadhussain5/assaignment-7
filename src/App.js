@@ -7,7 +7,7 @@ import Cost from './Components/cost/cost';
 
 function App() {
   const Boxing ={width:'40%',display:"flex"}
-  const [person,setPerson]= useState([]);
+  const [setPerson]= useState([]);
   const [cost,setCost]= useState([]);
   const addHandler =(person) =>{
     const newCost = [...cost,person]

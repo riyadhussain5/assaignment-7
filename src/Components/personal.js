@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import {  faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Personal = (props) => {
     const imgStyle = {height:'200px',width:'250px'}
