@@ -7,7 +7,7 @@ import Cost from './Components/cost/cost';
 
 function App() {
   const Boxing ={width:'40%',display:"flex"}
-  const [setPerson]= useState([]);
+  const [person,setPerson]= useState([]);
   const [cost,setCost]= useState([]);
   const addHandler =(person) =>{
     const newCost = [...cost,person]
@@ -16,7 +16,7 @@ function App() {
   useEffect(() =>{
     setPerson(personalData)
     
-  },[])
+  },[person])
   return (
     <div className="App">
      <h1>Bangladesh Cricket Team</h1>
